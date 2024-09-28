@@ -49,9 +49,13 @@ Once you upload new images or start the camera, the system will train the recogn
 
 ## How It Works
 Face Detection: The program uses OpenCV’s Haar Cascade Classifier to detect faces in the camera feed or uploaded images.
+
 Face Recognition: After detecting faces, it uses the Local Binary Patterns Histograms (LBPH) algorithm for face recognition.
+
 Adding New Faces: New faces can be uploaded and added to the training set, allowing the system to improve over time.
 ## Improvements
 Adjust the confidence threshold in the code to tweak the stringency of recognition.
+
 Add more images to the dataset for better accuracy.
+
 Use more advanced face recognition models such as deep learning-based methods for improved performance.
