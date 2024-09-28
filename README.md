@@ -32,18 +32,20 @@ The corresponding labels (names) for these images are stored in the list mnx in 
 3. Running the Program
 Run the Python script:
 
- ### python face_recognition.py
+   ### python face_recognition.py
 This will open up the GUI where you can:
 
 Start Camera: Start the live camera feed for face recognition.
 Stop Camera: Stop the camera feed.
 Upload Image: Upload a new image to add to the system.
+
 4. Upload New Faces
 To upload a new image and add a new face to the recognition system:
 
 Click the "Upload Image" button in the GUI.
 Select an image from your local machine.
 The system will detect faces in the image and add them to the training data.
+
 5. Training Process
 Once you upload new images or start the camera, the system will train the recognizer using the Local Binary Patterns Histograms (LBPH) method on the detected faces. The system will predict the face labels and display the corresponding name or "Not Matched" if the confidence level is too low.
 
