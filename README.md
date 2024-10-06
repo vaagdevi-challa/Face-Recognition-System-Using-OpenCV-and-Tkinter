@@ -22,8 +22,8 @@ You can install the necessary dependencies using pip:
 # How to Use
 1. Clone the Repository
 First, clone the repository to your local machine:
-### git clone https://github.com/your-username/face-recognition-system.git
-### cd face-recognition-system
+### git clone https://github.com/vaagdevi-challa/Face-Recognition-System-Using-OpenCV-and-Tkinter.git
+### cd Face-Recognition-System-Using-OpenCV-and-Tkinter
 2. Prepare the Dataset
 Place the images of the known faces inside the project folder. The images should be named r1.jpg, r2.jpg, etc. Ensure they are front-facing images with clear visibility of the face. These images will be used to train the face recognizer.
 
